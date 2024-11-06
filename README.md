@@ -44,6 +44,9 @@ Detailed explanation of how all components are weighted and combined into the fi
 ### [Trading Strategies](docs/09-trading-strategies.md)
 Implementation of trading strategies based on the Fear and Greed Index. This component provides position sizing, entry/exit rules, and risk management guidelines.
 
+### [Social Sentiment Using AI](docs/10-social-sentiment-using-ai.md)
+Alternative implementation of social sentiment analysis using Anthropic's Claude 3.5 Haiku API. This component provides deep learning-based sentiment analysis of social media content across Reddit, Twitter, and Telegram, with detailed metrics and confidence scoring. Perfect for teams that prefer AI-based sentiment analysis over traditional methods.
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
