@@ -173,5 +173,3 @@ Integration with Other Metrics:
 - High Volume Score + High Price Score = Strong Greed
 - High Volume Score + Low Price Score = Strong Fear
 - Low Volume Score = Reduce weight of other indicators
-
-Would you like me to continue with the Impulse Score component next?

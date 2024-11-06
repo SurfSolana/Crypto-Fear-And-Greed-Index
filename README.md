@@ -17,46 +17,32 @@ A comprehensive implementation of a Crypto Fear and Greed Index with multiple da
 
 ## Documentation
 
-```
-docs/
-├── 01-price-score.md
-├── 02-volatility-score.md
-├── 03-volume-analysis.md
-├── 04-impulse-score.md
-├── 05-technical-analysis.md
-├── 06-social-sentiment.md
-├── 07-external-components.md
-├── 08-system-integration.md
-├── 09-trading-strategies.md
-```
+### [Price Score](docs/01-price-score.md)
+Complete analysis of price trends across multiple timeframes. This component measures market direction and strength using moving averages and trend analysis, providing a foundation for sentiment scoring.
 
-Each document contains detailed explanations, algorithms, and implementation examples for the respective components.
+### [Volatility Score](docs/02-volatility-score.md)
+Measures market volatility using True Range and standard deviation of returns. This component helps gauge market risk and sentiment extremes through price movement patterns.
 
-## Getting Started
+### [Volume Analysis](docs/03-volume-analysis.md)
+Deep dive into trading volume patterns and their relationship with price movement. This component analyzes volume trends, breakouts, and divergences to confirm market sentiment.
 
-1. Clone the repository:
-```bash
-git clone https://github.com/SurfSolana/Crypto-Fear-And-Greed-Index.git
-```
+### [Impulse Score](docs/04-impulse-score.md)
+Measures the momentum and force of price movements using RSI, MACD, and Rate of Change indicators. This component helps identify the strength and sustainability of trends.
 
-2. Install dependencies:
-```bash
-npm install
-```
+### [Technical Analysis](docs/05-technical-analysis.md)
+Comprehensive technical analysis incorporating multiple indicators and oscillators. This component provides a broad market view using traditional technical analysis tools.
 
-3. Set up your environment variables:
-```bash
-cp .env.example .env
-# Edit .env with your API keys and configuration
-```
+### [Social Sentiment](docs/06-social-sentiment.md)
+Analysis of social media sentiment across multiple platforms. This component tracks and measures market sentiment through social signals, engagement metrics, and linguistic analysis.
 
-## Contributing
+### [External Components](docs/07-external-components.md)
+Integration of external data sources including Google Trends, whale wallet tracking, and order book analysis. These components provide additional context and confirmation for market sentiment.
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+### [System Integration](docs/08-system-integration.md)
+Detailed explanation of how all components are weighted and combined into the final index. This document covers the complete system architecture and component interaction.
+
+### [Trading Strategies](docs/09-trading-strategies.md)
+Implementation of trading strategies based on the Fear and Greed Index. This component provides position sizing, entry/exit rules, and risk management guidelines.
 
 ## License
 
